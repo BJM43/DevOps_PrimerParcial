@@ -22,7 +22,7 @@ jobs:
         run: npm install --global surge
 
       - name: Deploy to Surge.sh
-        run: surge ./ https://myweb.surge.sh
+        run: surge ./ https://mi-pagina-ejemplo-2024.surge.sh
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
